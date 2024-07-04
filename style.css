@@ -98,20 +98,6 @@ main {
   animation-fill-mode: both;
 }
 
-#hero button {
-  background-color: #ff6b6b;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  border-radius: 30px;
-  cursor: pointer;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-  animation: bounceIn 1s ease 1s;
-  animation-fill-mode: both;
-}
-
 @keyframes bounceIn {
   0% {
     transform: scale(0.3);
@@ -127,11 +113,6 @@ main {
   100% {
     transform: scale(1);
   }
-}
-
-#hero button:hover {
-  transform: translateY(-5px) scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #services {
